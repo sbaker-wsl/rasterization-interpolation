@@ -17,13 +17,7 @@
 module vga (
    // pixel clock
    input  pclk,
-	
-	// CPU interface (write only!)
-	//input  cpu_clk,
-	//input  cpu_wr,
-	//input [13:0] cpu_addr,
-	//input [7:0] cpu_data,
-		
+
    // VGA output
    output reg	hs,
    output reg 	vs,
@@ -81,8 +75,6 @@ end
 // read VRAM
 reg [13:0] video_counter;
 reg [13:0] vmem_counter;
-reg [5:0] test_cnt;
-reg [5:0] test_offset;
 reg [23:0] pixel;
 reg de;
 // stuff for vectors in project!
@@ -285,5 +277,6 @@ assign g = pixel[15:8];
 assign b = pixel[7:0];
 
 assign VGA_DE = de;
+
 
 endmodule
