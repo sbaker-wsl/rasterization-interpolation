@@ -4,8 +4,13 @@ This repository is meant to serve as an accumulation of the work I completed as 
 
 [View the final report for the study here](Fall_Directed_Study_Report_2025.pdf)
 
+
 [View the source code for triangle rasterization and interpolation here](vga.v)
+
 
 [The source code was developed using alanswx's MiSTer tutorial linked here](https://github.com/alanswx/Tutorials_MiSTer/tree/master/basic/lesson2)
 
-[View the labs completed from FPGAAcademy's Embedded Systems here](embedded)
+
+[View the labs completed from FPGAAcademy's Embedded Systems section here](embedded)
+
+[View the labs completed from FPGAAcademy's Digital Logic section here](digital_logic)
